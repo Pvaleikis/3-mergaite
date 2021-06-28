@@ -9,7 +9,14 @@
         body{
             background-color:#F8F8F8;
         }
+        
+        nav{ 
+            display:block;
+        }
         #menu{
+            position: relative;
+            left: 60%;
+            top: -10%;
             margin: 0;
             margin-right: 10%;
 	        width: 900px;
@@ -25,27 +32,37 @@
 	        
         }
         .mainImg {
+            position:absolute;
             float: right;
-            margin-top: 15%;
+            margin:0;
+            top: 20%
+        }
+        .logo {
+            position: relative;
+            left:-40%;
+        }
+        .info{
+           left:0;
         }
     </style>
 
 </head>
 <body>
-    <img src="./dv.png" alt="logo failed">
+    <nav>
+        <ul id="menu">
+            <li>Home</li>
+            <li>Tracks</li>
+            <li>Libary</li>
+            <li>Community</li>
+            <li>sign in</li>
+        </ul>
+    </nav>
+    <img class="logo" src="./dv.png" alt="logo failed">
    
     <img class="mainImg" src="./mergaite.png" alt="image failed">
     
-    <main>
-        <nav>
-            <ul id="menu">
-                <li>Home</li>
-                <li>Tracks</li>
-                <li>Libary</li>
-                <li>Community</li>
-                <li>sign in</li>
-            </ul>
-        </nav>
+    <main class="info">
+        
         <h1>404</h1>
         <p>the link is broken or the page has been moved.</p>
     </main>
