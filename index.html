@@ -8,6 +8,7 @@
     <style>
         body{
             background-color:#F8F8F8;
+            font-variant-numeric: slashed-zero;
         }
         
         nav{ 
@@ -15,12 +16,12 @@
         }
         #menu{
             position: relative;
+            color:#9E9E9E;
             left: 60%;
             top: -10%;
             margin: 0;
             margin-right: 10%;
 	        width: 900px;
-	        font-family: sans-serif;
         }
 
         #menu li {
@@ -39,16 +40,26 @@
         }
         .logo {
             position: relative;
-            left:-40%;
+            
         }
         .info{
-           left:0;
+            position: relative;
+           left:80px;
+           bottom: -90px;
+           color:#9E9E9E;
+           
+        }
+
+        .para{
+            width: 25%;
         }
     </style>
 
 </head>
 <body>
     <nav>
+    <img class="logo" src="./dv.png" alt="logo failed">
+
         <ul id="menu">
             <li>Home</li>
             <li>Tracks</li>
@@ -57,14 +68,13 @@
             <li>sign in</li>
         </ul>
     </nav>
-    <img class="logo" src="./dv.png" alt="logo failed">
    
     <img class="mainImg" src="./mergaite.png" alt="image failed">
     
     <main class="info">
         
-        <h1>404</h1>
-        <p>the link is broken or the page has been moved.</p>
+        <h1 style="font-size: 200px; margin:0">404</h1>
+        <p style="font-size: 30px;" class="para">the link is broken or the page has been moved.</p>
     </main>
 </body>
 </html>
