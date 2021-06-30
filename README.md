@@ -7,7 +7,7 @@
 # Design and Outcome
 
 
-Site published at https://augisko.github.io/front-end-28bit-comingsoon/
+Site published at 
 
 Design: https://cdn.discordapp.com/attachments/648536139677958156/648860692459290634/unknown.png
 ## Authors
